@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "babel-node index.js"
+    "b": "babel-node index.js"
   },
   "repository": {
     "type": "git",

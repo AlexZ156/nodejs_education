@@ -1,8 +1,0 @@
-'use strict';
-
-export default function(module) {
-    return function() {
-        let args = [module.filename].concat([].slice.call(arguments));
-        console.log.apply(console, args);
-    }
-}
